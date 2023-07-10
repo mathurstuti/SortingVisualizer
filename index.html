@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Bai Jamjuree' rel='stylesheet'>
+    <title>Sorting Visualizer</title>
+</head>
+<body>
+    <div id="heading"><h1>Sorting Visualizer</h1></div>
+    <div class="container">
+        <div id="array-container">
+            <div id="array"></div>
+            <h5 id="no-algo-warning" class="display-none">Please select an Algorithm to sort!</h5>
+        </div>
+        <div id="algo-container">
+            <button class="algo-btn">Bubble Sort</button>
+            <button class="algo-btn">Selection Sort</button>
+            <button class="algo-btn">Insertion Sort</button>
+            <button class="algo-btn">Merge Sort</button>
+            <button class="algo-btn">Quick Sort</button>
+            <button class="algo-btn">Heap Sort</button> 
+        </div>
+        <div id="change-container">
+            <button id="sort">Sort</button>
+            <button id="reset">Reset</button>
+            
+            <div id="sliders">
+                <div class="slider-container">
+                    <label>Array Size</label>
+                    <input type="range"  min="10" max="40" value="20" onchange="arraySizeChange(this.value)" id="size-slider" class="slider" autocomplete="off">
+                </div>
+                <div class="slider-container">
+                    <label>Speed</label>
+                    <input type="range" min="50" max="1000" value="500" onchange="speedChange(this.value)" id="speed-slider" class="slider" autocomplete="off">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
