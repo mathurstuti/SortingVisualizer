@@ -9,4 +9,5 @@ To further customize user's learning experience, Sorting Visualizer offers adjus
 
 The reset feature in Sorting Visualizer generates a new random array, allowing user to repeatedly practice and explore different scenarios. This helps solidify understanding of sorting algorithms and their behavior with different inputs.
 
-Check on this link below:
+Check on this link below : 
+https://mathurstuti.github.io/SortingVisualizer/
